@@ -2,6 +2,12 @@
  * git... commit... Oh Shit!... (Because we've all been there)
  */
 
+################
+# Helpful URLs #
+################
+http://41j.com/blog/2015/02/common-git-screwupsquestions-solutions/
+
+
 #######
 # Key #
 #######
@@ -68,15 +74,15 @@ Show a visual graph of your commit history relative to checked out branch
 # Fix Last Commit Message #
 ###########################
 
-Add/update info from stage to last commit and update message with "new message"
-  $ git commit --amend -m “new message"
+Add/update info from stage to last commit and update message with 'new message'
+  $ git commit --amend -m 'new message'
 
 
 #########
 # Reset #
 #########
 
-To un-stage a file you accidentally staged or just revert it to last commit
+To un-stage a file you accidentally staged
   $ git reset <file>
 
 Undo the last commit, moving everything from that commit back into staging
